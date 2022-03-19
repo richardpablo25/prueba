@@ -1,0 +1,33 @@
+        *{
+            /* saca los . de las listas */
+            list-style: none;
+           /* saco el margen por defecto */
+            margin: 0;
+            /* saco  */
+            padding: 0;
+
+        }
+        
+
+        h1{
+            color: #7fff00; 
+            text-align: center;
+        }
+        body{
+            background-color: thistle;
+        }
+        p{ 
+            style="color:rgb(29, 59, 228)"
+        }
+   
+        #parrafoVerde{
+                    }
+        #parrafoVerde{
+            color: green;
+        
+        }
+
+        /* selector por clase */
+        .parrafoRojo{
+            color:red
+        }
