@@ -1,27 +1,32 @@
+        /* selector universal * */
         *{
             /* saca los . de las listas */
-            list-style: none;
+            /* list-style: none; */
            /* saco el margen por defecto */
-            margin: 0;
+            margin: 30;
             /* saco  */
-            padding: 0;
+            padding: 30;
 
         }
         
-
+        /* selector tipo */
         h1{
-            color: #7fff00; 
+            color: #5faa13; 
             text-align: center;
         }
+            
+
         body{
-            background-color: thistle;
+            font: 100% Arial;
+            background-color: #738380;
         }
+        
+        
         p{ 
             style="color:rgb(29, 59, 228)"
         }
    
-        #parrafoVerde{
-                    }
+        
         #parrafoVerde{
             color: green;
         
@@ -29,5 +34,5 @@
 
         /* selector por clase */
         .parrafoRojo{
-            color:red
+            color:#ff0000;
         }
