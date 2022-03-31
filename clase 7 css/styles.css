@@ -17,15 +17,12 @@ h1{
     text-align: center;
     
 }
+div{
+    padding: 10px;
+    border: 10px solid blueviolet;
+    margin: 20px;
+    background-color: bisque;
+    outline: 10px solid red;
 
-/* Pseudo clase */
-
-h1:hover{
-    color:#ff1493;
 }
 
-
-
-section{
-    justify-content: center;
-}
