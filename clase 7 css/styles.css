@@ -19,19 +19,20 @@ h1{
 }
 div{
     padding: 10px;
-    border: 10px solid blueviolet;
+    border: 5px solid blueviolet;
     margin: 20px;
     background-color: bisque;
-    outline: 10px solid red;
-    transition: width 5s;
-    animation-name: example;
-    animation-duration: 4s;
+    /* outline: 10px solid red; */
+    /* transition: width 25s; */
+    /* animation-name: example; */
+    /* animation-duration: 4s; */
 }
 
-@keyframes example {
-    from{background-color: red;}
-    to{background-color: yellow;}
-}
-div:hover{
-    width: 250px;
-}
+/* @keyframes example { */
+/*    from{background-color: red;}*/
+/*    to{background-color: yellow;}*/
+
+/* div:hover{ */
+/*    width: 250px; */
+/*} */
+
