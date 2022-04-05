@@ -1,0 +1,120 @@
+/* Selector Universal */
+*{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body{
+    background-color: #e8eded;
+
+}
+h1{
+    color: #819fc5;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #deedf7;
+    animation-name: anih1;
+    animation-duration: 10s;
+}
+
+#fotohistoria{
+    float: right;
+    width: 500px;
+    height: 300px;
+    margin-right: 500px;  
+    margin-top: 0px;
+}
+
+#fotogeografia{
+    float: right;
+    width: 500px;
+    height: 230px;
+    margin-right: 500px;
+    margin-top: 30px;
+}
+
+#fotoeconomia{
+    float:right;
+    width: 500px;
+    height: 250px;
+    margin-right: 500px;
+    margin-top: 20px;
+
+}
+
+
+
+.historia{
+    color: #819fc5;
+    width: 500px;
+    height: 300px;
+    padding: 10px;
+    border: 5px solid #7bc2f1;
+    margin: 20px;
+    background-color: #deedf7;
+    
+}
+
+.Geografia{
+     
+    color: #819fc5;
+    width: 500px;
+    height: auto;
+    padding: 10px;
+    border: 5px solid #7bc2f1;
+    margin: 20px;
+    background-color: #deedf7;  
+}
+
+.Economia{
+    color: #819fc5;
+    width: 500px;
+    height: auto;
+    padding: 10px;
+    border: 5px solid #7bc2f1;
+    margin: 20px;
+    background-color: #deedf7;  
+}
+
+
+
+.historia:hover{ 
+    background-color: #f5f6f8;
+} 
+
+.Geografia:hover{
+    background-color: #f5f6f8;
+}
+
+.Economia:hover{
+    background-color: #f5f6f8;
+}
+
+/* efectos color fondo y avanzar */
+
+@keyframes anih1 {
+    from {background-color: #deedf7;}
+    to{background-color: deepskyblue;}
+    from {width: 10em;}
+    to {width: 60em}
+}
+
+/* prueba escala 2 */
+#fotohistoria:hover{
+    transform: scaleX(2);
+
+}
+
+/* prueba opacidad */
+#fotogeografia:hover{
+    
+    filter: opacity(0.5);
+}
+
+/* prueba girar */
+#fotoeconomia:hover{
+    transform: scaleX(-1);
+}
