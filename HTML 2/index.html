@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clases </title>
+    
+</head>
+<body>
+<header>
+
+    <!-- etiquetas-->
+    <h1>Bienvenidos</h1>
+</header>
+
+<main>
+    <h2>subtitulo</h2>
+    <p>parrafos</p>
+
+    <!-- lista desordenada-->
+    <!--li*3 hace 3 li-->
+    <ul>
+        <li>lunes</li>
+        <li>martes</li>
+        <li>miercoles</li>
+    </ul>
+
+    <!-- lista ordenada-->
+    <ol>
+        <li>enero </li>
+        <li>febrero</li>
+        <li>marzo</li>
+    </ol>
+
+    <!-- tablas -->
+    <table border="1">
+        <tr>
+          <td rowspan="3">Zona Sur</td>  
+          <td>Avellaneda</td>  
+          <td>Lanús</td>
+        </tr>
+        <tr>
+            <td colspan="2">Banfield</td>
+        </tr>
+        <tr>
+            <td>Quilmes</td>
+            <td>Beraza</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Zona Oeste</td>
+            <td>Morón</td>
+            <td>Merlo</td>
+        </tr>
+        <tr>
+            <td>Moreno</td>
+            <td>Haedo</td>
+        </tr>
+
+
+    </table>
+
+    <!--agrego contenido desde youtube-->
+    <iframe width="150" height="100" src="https://www.youtube.com/embed/f8CUTsY7M4w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <br>
+
+
+
+    <!--formulario-->
+    <form action="mostrar.html" taget=""_blank> 
+        <label for="Nombre">Nombre: <input type="text" placeholder="ingrese nombre aqui"</label>
+        <br>
+        <label for="email">Email: <input type="email" placeholder="ingrese mail"></label>
+        <br>
+        <label for="Dirección">Direccion <input type="text" placeholder="ingrese dirección"</label>
+        <br>
+        <p> Genero
+            <input type="radio" name="gender" value="Hombre" checked>Hombre
+            <input type="radio" name="gender" value="Mujer" checked> Mujer
+            <input type="radio" name="gender" value="Otro" checked>Otro
+        </p>  
+        <br>
+        <p>Estudios
+            <input type="checkbox" name="estudio" value="Primario"> Primario
+            <input type="checkbox" name="estudio" value="Secundario"> Secundario
+            <input type="checkbox" name="estudio" value="Terciario"> Terciario
+
+        </p>   
+        
+        <br>
+
+        <label for="comentarios">comentarios: </label>
+        <textarea name="comentarios" rows="10" cols="30"> </textarea>
+        <br>
+        <br>
+        <input type="submit" value="enviar">
+    </form>
+
+
+
+
+</main>
+
+<footer>
+        &copy;2022
+</footer>
+</body>
+</html>
